@@ -53,11 +53,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 <img align="right" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/menu.png"/>
 <img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/itemdetails.png"/>
 
-
-
-![Home](https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/home.png)
-![About Us](https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/aboutus.png)
-![Contact Us](https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/contacts.png)
-![Menu](https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/menu.png)
-![Item Details](https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/itemdetails.png)
-
