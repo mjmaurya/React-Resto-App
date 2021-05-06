@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
-import { Card, CardImg, CardImgOverlay, CardText, CardBody,
-    CardTitle } from 'reactstrap';
+import { Card, CardImg, Breadcrumb,BreadcrumbItem, CardText, CardBody, CardTitle } from 'reactstrap';
+import {Link} from 'react-router-dom';
 
-class DishdetailComponent extends Component {
+class Dishdetails extends Component {
     constructor(props){
         super(props);
     }
@@ -73,17 +73,23 @@ class DishdetailComponent extends Component {
 
     }
     render() {
-        const details=this.props.selectedDish;
+        const details=this.props.dish;
         if (details==null){
             return(
                 <div></div>
             )
         }
         const dish=this.renderDish(details);
-        const comments=this.renderComments(details.comments);
+        const comments=this.renderComments(this.props.comments);
 
         return (
             <div className="container">
+            <div className="row">
+            <Breadcrumb>
+                <BreadcrumbItem><Link to="/menu">Menu</Link></BreadcrumbItem>
+                <BreadcrumbItem>{this.props.dish.name}</BreadcrumbItem>
+            </Breadcrumb>
+            </div>
                 <div className="row">
                 {dish}
                 {comments}
@@ -93,4 +99,4 @@ class DishdetailComponent extends Component {
     }
 }
 
-export default DishdetailComponent
+export default Dishdetails

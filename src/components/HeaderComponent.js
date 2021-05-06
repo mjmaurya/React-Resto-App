@@ -22,7 +22,7 @@ ToggleNav(){
                 <Navbar dark expand="md">
                     <div className="container">
                     <NavbarToggler onClick={this.ToggleNav}/>
-                    <NavbarBrand href="/">Ristorante Con Fusion</NavbarBrand>
+                    <NavbarBrand href="/">Resto</NavbarBrand>
                     <Collapse isOpen={this.state.isOpenTogler} navbar>
                     <Nav navbar>
                         <NavItem>
@@ -42,7 +42,7 @@ ToggleNav(){
                     </div>
                 </Navbar>
                 <Jumbotron>
-                    <h1>Ristorante Con Fusion</h1>
+                    <h1>Resto</h1>
                     <p>
 
                     </p>
