@@ -48,9 +48,9 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Screenshots
 <img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/home.png"/>
-<img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/aboutus.png"/>
+<img align="right" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/aboutus.png"/>
 <img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/contacts.png"/>
-<img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/menu.png"/>
+<img align="right" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/menu.png"/>
 <img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/itemdetails.png"/>
 
 
