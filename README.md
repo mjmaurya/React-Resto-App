@@ -46,3 +46,10 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+## Screenshots
+<img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/home.png"/>
+<img align="right" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/aboutus.png"/>
+<img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/contacts.png"/>
+<img align="right" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/menu.png"/>
+<img align="left" width="500" src="https://github.com/mjmaurya/React-Resto-App/blob/master/screenshots/itemdetails.png"/>
+
