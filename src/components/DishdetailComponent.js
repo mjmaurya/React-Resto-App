@@ -2,10 +2,7 @@ import React, { Component } from 'react'
 import { Card, CardImg, Breadcrumb,BreadcrumbItem, CardText, CardBody, CardTitle } from 'reactstrap';
 import {Link} from 'react-router-dom';
 
-class Dishdetails extends Component {
-    constructor(props){
-        super(props);
-    }
+class Dishdetails extends Component{
 
     renderDish(details){
         if(details!=null){

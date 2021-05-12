@@ -38,8 +38,8 @@ class Main extends Component {
     const DishWithID=({match})=>{
       return(
         <Dishdetails 
-        dish={this.state.dishes.filter((dish)=>dish.id==parseInt(match.params.dishId,10))[0]}
-        comments={this.state.comments.filter((comment)=>comment.dishId==parseInt(match.params.dishId,10))}
+        dish={this.state.dishes.filter((dish)=>dish.id===parseInt(match.params.dishId,10))[0]}
+        comments={this.state.comments.filter((comment)=>comment.dishId===parseInt(match.params.dishId,10))}
         />
       )
 
