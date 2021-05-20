@@ -9,6 +9,7 @@ import About from "./AboutComponents";
 
 import {Switch,Route,Redirect,withRouter} from 'react-router-dom';
 import {connect} from 'react-redux';
+import Contact2 from './ContactComponent2';
 
 const  mapStateToprops=(state)=>
 {
@@ -49,6 +50,7 @@ class Main extends Component {
           <Route path='/contactus' component={Contact} />} />
           <Route path='/aboutus' component={()=><About leaders={this.props.leaders}/>} />} />
           <Route path="/menu/:dishId" component={DishWithID}/>
+          <Route path="/recontact" component={Contact2}/>
           <Redirect to="/home"/>
         </Switch>
         <Footer/>
